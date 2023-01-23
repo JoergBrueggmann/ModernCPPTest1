@@ -1,0 +1,13 @@
+
+if [ "$1" = "win" ]; then
+    rm bin/main.exe
+else
+    rm bin/main
+fi
+make clean
+make all
+if [ "$1" = "win" ]; then
+    bin/main.exe
+else
+    bin/main
+fi

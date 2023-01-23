@@ -1,0 +1,2 @@
+
+bash -- seclean win
